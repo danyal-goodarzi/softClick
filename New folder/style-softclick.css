@@ -1,0 +1,409 @@
+body {
+    background-color: #63a1bf;
+    direction: rtl;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+}
+
+.header img {
+    width: 195px;
+}
+
+.menu {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 35px;
+    margin-top: -42px;
+    position: sticky;
+    top: 0;
+    border-radius: 12px;
+    z-index: 5;
+}
+
+.menu ul {
+    list-style: none;
+
+}
+
+.menu>ul>li {
+    float: right;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.menu ul li a {
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu>ul>li>a:hover {
+    background-color: #63a1bf;
+    color: #fff;
+}
+
+.menu>ul>li>ul>li:hover {
+    background-color: #63a1bf;
+}
+
+.menu>ul>li>ul>li:hover a {
+    color: #fff;
+
+}
+
+.menu ul:first-child {
+    margin-right: 0px;
+}
+
+.menu ul ul {
+    padding: 0;
+    display: none;
+
+}
+
+.menu ul li ul li {
+    float: none;
+    margin: -10px;
+    padding: 5px;
+    margin-top: 6px;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.menu input {
+    width: 200px;
+    border-radius: 13px;
+    position: absolute;
+    top: 4px;
+    right: 660px;
+    direction: rtl;
+    padding-right: 8px;
+    background-color: #eee;
+}
+
+.menu>a>i {
+    position: absolute;
+    top: 11px;
+    right: 840px;
+    font-size: 14px;
+    color: #1976D2;
+    transition: 0.5s;
+}
+
+.menu a i:hover {
+    color: #1A237E;
+}
+
+.tablig {
+    background-color: whitesmoke;
+    margin-top: 12px;
+    border-radius: 12px;
+    width: 100%;
+    height: 150px;
+}
+
+.tablig img {
+    width: 167px;
+    margin: 8px;
+
+}
+
+.app {
+    background-color: #e0e0e0;
+    width: 750px;
+    margin-top: 25px;
+    margin-right: 25px;
+    position: relative;
+    height: 385px;
+    border-radius: 12px;
+}
+
+.app-name {
+    padding: 10px 20px;
+    background-color: #EEEEEE;
+    /* position: absolute;
+    top: 5px;
+    right: 5px; */
+    border-radius: 12px;
+    width: 700px;
+    box-shadow: 2px 2px 4px #1976D2;
+}
+
+.app-name h3 {
+    display: inline;
+    font-size: 29px;
+}
+
+.app img {
+    width: 170px;
+    position: absolute;
+    top: 77px;
+    left: 11px;
+}
+
+.app-info {
+    position: absolute;
+    top: 58px;
+    right: 13px;
+    width: 540px;
+    text-align: justify;
+}
+
+#download {
+    color: #1976D2;
+}
+
+#download-seen {
+    color: #1976D2;
+}
+
+
+.app button {
+    position: absolute;
+    top: 342px;
+    left: 39px;
+    border-radius: 6px;
+    padding: 3px 8px 3px 8px;
+    background-color: #1976D2;
+    transition: 0.5s;
+}
+
+.app button a {
+    color: #fff;
+    background-color: #1976D2;
+    transition: 0.5s;
+
+}
+
+.app button:hover a {
+    background-color: #0D47A1;
+
+}
+
+.app button:hover {
+    background-color: #0D47A1;
+}
+
+.update1 {
+    background-color: #e0e0e0;
+    width: 450px;
+    height: 400px;
+    float: left;
+    /* margin-top: 27px;
+    margin-left: 135px; */
+    border-radius: 12px;
+    padding: 10px;
+    overflow: auto;
+    margin-left: 135px;
+    margin-top: 25px;
+}
+
+.update1 div {
+    position: relative;
+    background-color: #EEEEEE;
+    border-radius: 12px;
+    height: 43px;
+    padding: 10px;
+    box-shadow: 2px 2px 4px #1976D2;
+    margin-bottom: 7px;
+}
+
+.update1 img {
+    float: left;
+    width: 50px;
+    margin: -3px;
+}
+
+.update1 a span {
+    font-size: 18px;
+    position: absolute;
+    top: 19px;
+    right: 20px;
+    color: #0D47A1;
+}
+
+fieldset {
+    color: #1A237E;
+}
+
+.update2 {
+    background-color: #e0e0e0;
+    width: 450px;
+    height: 400px;
+    float: left;
+    margin-top: 470px;
+    margin-left: -470px;
+    border-radius: 12px;
+    padding: 10px;
+    overflow: auto;
+
+}
+
+.update2 div {
+    position: relative;
+    background-color: #EEEEEE;
+    border-radius: 12px;
+    height: 43px;
+    padding: 10px;
+    box-shadow: 2px 2px 4px #1976D2;
+    margin-bottom: 7px;
+}
+
+.update2 img {
+    float: left;
+    width: 50px;
+    margin: -3px;
+}
+
+.update2 a span {
+    font-size: 18px;
+    position: absolute;
+    top: 19px;
+    right: 20px;
+    color: #0D47A1;
+}
+
+.tablig2 {
+    background-color: whitesmoke;
+    border-radius: 12px;
+    width: 490px;
+    float: left;
+    margin-top: -1485px;
+    margin-left: 120px;
+    position: sticky;
+    top: 100px;
+}
+
+.tablig3 {
+    background-color: whitesmoke;
+    border-radius: 12px;
+    width: 490px;
+    float: left;
+    margin-top: -618px;
+    margin-left: 120px;
+
+}
+
+.tablig3 img {
+    width: 225px;
+    margin: 8px;
+}
+
+.tablig2 img {
+    width: 225px;
+    margin: 8px;
+}
+
+
+.page-num {
+    margin-right: 490px;
+    margin-top: 30px;
+}
+
+.page-num li {
+    display: inline;
+    margin: 3px;
+    border-radius: 16px;
+    background-color: whitesmoke;
+    transition: 0.3s;
+}
+
+.page-num li a {
+    border-radius: 16px;
+    padding: 5px 9px 5px 5px;
+    color: #1976D2;
+
+}
+
+.page-num li:hover {
+    background-color: #1976D2;
+    font-size: 18px;
+}
+
+.page-num li:hover a {
+    color: #fff;
+
+}
+
+.img-footer {
+    width: 1519px;
+    margin-right: -8px;
+    margin-bottom: -13px;
+    /* position: relative; */
+    z-index: 0;
+}
+
+footer img:nth-child(2) {
+    width: 399px;
+    position: absolute;
+    top: 2898px;
+    right: 544px;
+}
+
+footer .copyriwt {
+    z-index: 1;
+    position: absolute;
+    top: 3075px;
+    right: 593px;
+}
+
+footer .copyriwt a {
+    font-size: 22px;
+    color: #63a1bf;
+}
+
+.enamad {
+    position: absolute;
+    top: 2939px;
+    left: 130px;
+}
+
+footer ul {
+    list-style: none;
+    position: absolute;
+    top: 2900px;
+    right: 80px;
+}
+
+footer ul li {
+    margin-top: 20px;
+} 
+ 
+ footer ul li:nth-child(1) {
+    list-style-type: none;
+    font-size: 25px;
+    color: #0D47A1;
+    margin-right: -30px;
+} 
+
+#phone {
+    position: absolute;
+    top: 2988px;
+    right: 90px;
+    color: #0D47A1;
+}
+
+#envelope {
+    position: absolute;
+    top: 3032px;
+    right: 90px;
+    color: #0D47A1;
+}
